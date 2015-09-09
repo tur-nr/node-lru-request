@@ -2,7 +2,6 @@ var request = require('request');
 var lru = require('lru-cache');
 var impl = require('implements');
 var hash = require('object-hash');
-var debug = require('debug');
 var methods = ['get', 'set', 'has', 'del'];
 
 function flush(req, callbacks) {
